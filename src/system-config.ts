@@ -7,10 +7,16 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'jquery': 'vendor/jquery/dist'
 };
 
 /** User packages configuration. */
 const packages: any = {
+  'jquery': {
+    main: 'jquery.min',
+    format: 'global',
+    defaultExtension: 'js'
+  }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
