@@ -3,6 +3,7 @@ import { enableProdMode } from '@angular/core';
 import { AppComponent, environment } from './app/';
 
 import 'jquery';
+import 'watermark';
 
 if (environment.production) {
   enableProdMode();

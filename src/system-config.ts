@@ -7,13 +7,19 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
-  'jquery': 'vendor/jquery/dist'
+  'jquery': 'vendor/jquery/dist',
+  'watermark': 'vendor/watermarkjs/dist',
 };
 
 /** User packages configuration. */
 const packages: any = {
   'jquery': {
     main: 'jquery.min',
+    format: 'global',
+    defaultExtension: 'js'
+  },
+  'watermark': {
+    main: 'watermark.min',
     format: 'global',
     defaultExtension: 'js'
   }

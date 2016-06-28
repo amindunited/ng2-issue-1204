@@ -17,7 +17,8 @@ module.exports = function(defaults) {
       'rxjs/**/*.+(js|js.map)',
       '@angular/**/*.+(js|js.map)',
 
-      'jquery/dist/**/*.+(js|min.map)'
+      'jquery/dist/**/*.+(js|min.map)',
+      'watermarkjs/dist/**/*.+(js|min.map)'
     ]
   });
 };
